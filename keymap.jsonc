@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+z",
+        "command": "-redo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "-editor.action.customEditor.redo",
+        "when": "focusedCustomEditorIsEditable && !inputFocus"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+      "key": "ctrl+f10",
+      "command": "eslint.executeAutofix"
+  }
+]

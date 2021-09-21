@@ -1,0 +1,269 @@
+{
+    "window.titleBarStyle": "custom",
+
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 150,
+    "editor.minimap.showSlider": "always",
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.njk",
+        "**/*.nunjucks",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.sql"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "workbench.tree.indent": 25,
+    "workbench.tree.renderIndentGuides": "onHover",
+    "editor.fontFamily": "Source Code Pro",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "njk": "html",
+        "vue": "html",
+        "vue-html": "html",
+        "nunjucks": "html",
+        "postcss": "css"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/_site": true,
+        "**/tmp": true,
+        "**/*.pyc": true,
+        "**/*.asset-cache": true,
+        "**/*.cache": true,
+        "**/*.jekyll-cache": true,
+        "**/*.tweet-cache": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true,
+        "**/*.coverage": true,
+        "**/celerybeat-schedule": true,
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "files.associations": {
+        "*.COBOL*": "cobol",
+        "*.COB*": "cobol",
+        "*.COBCOPY*": "cobol",
+        "*.COPYBOOK*": "cobol",
+        "*.COPY*": "cobol",
+        "*.PL1*": "pl1",
+        "*.PLI*": "pl1",
+        "*.INC*": "pl1",
+        "*.INCLUDE*": "pl1",
+        "*.JCL*": "jcl",
+        "*.ASM*": "hlasm",
+        "*.ASSEMBLE*": "hlasm",
+        "*.HLASM*": "hlasm",
+        "*.HLA*": "hlasm",
+        ".sequelizerc": "javascript",
+        "*.sql": "pgsql",
+        ".stylelintrc": "json",
+        ".prettierrc": "json",
+        "*.html": "html",
+        ".env": "dotenv",
+        "*.htm": "htm"
+    },
+    "workbench.colorCustomizations": {
+        "terminal.background": "#262626",
+        "terminal.foreground": "#65a162",
+        "terminalCursor.background": "#65a162",
+        "terminalCursor.foreground": "#65a162",
+        "terminal.ansiBlack": "#262626",
+        "terminal.ansiBlue": "#83ADAD",
+        "terminal.ansiBrightBlack": "#8A8A8A",
+        "terminal.ansiBrightBlue": "#83ADAD",
+        "terminal.ansiBrightCyan": "#85AD85",
+        "terminal.ansiBrightGreen": "#AFAF00",
+        "terminal.ansiBrightMagenta": "#D485AD",
+        "terminal.ansiBrightRed": "#D75F5F",
+        "terminal.ansiBrightWhite": "#EBDBB2",
+        "terminal.ansiBrightYellow": "#FFAF00",
+        "terminal.ansiCyan": "#85AD85",
+        "terminal.ansiGreen": "#AFAF00",
+        "terminal.ansiMagenta": "#D485AD",
+        "terminal.ansiRed": "#D75F5F",
+        "terminal.ansiWhite": "#DAB997",
+        "terminal.ansiYellow": "#FFAF00",
+        "titleBar.activeBackground": "#1d2021",
+        "statusBar.background": "#006678",
+        "statusBar.foreground": "#ffffff",
+        "sideBar.background": "#2c2c2c",
+        "tab.activeBorder": "#006678",
+        "tab.hoverBorder": "#0066787e",
+        "sideBar.border": "#222526",
+        "activityBar.background": "#1d2021"
+    },
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "mjml",
+            "vue",
+            "njk",
+            "nunjucks"
+        ]
+    },
+    "explorer.compactFolders":false,
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.detectLocale": "on",
+    // "terminal.integrated.setLocaleVariables": true,
+    "terminal.integrated.shell.linux": "/usr/bin/bash",
+    "better-comments.tags": [{
+            "tag": "!",
+            "color": "#FB4934",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "?",
+            "color": "#83A598",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "todo",
+            "color": "#FABD2F",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "*",
+            "color": "#B8BB26",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        }
+    ],
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.renderIndentGuides": true,
+    "editor.detectIndentation": true,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    //14
+    "breadcrumbs.enabled": true,
+    "editor.fontSize": 14,
+    //13
+    "eslint.enable": true,
+    "editor.suggestStatusBar.enable":true,
+    "emmet.extensionsPath":[
+        "~/.vssnippet"
+    ],
+    "eslint.format.enable": true,
+    // "eslint.codeActionsOnSave.mode": "all",
+    "eslint.validate": [
+        "vue",
+        "html",
+        "javascript",
+        "typescript",
+        "typescriptreact"
+    ],
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "files.autoSave": "off",
+    "window.zoomLevel": 0,
+    "[pgsql]": {
+        "editor.defaultFormatter": "bradymholt.pgformatter",
+        "editor.formatOnSave": true
+    },
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    //     "editor.formatOnSave": true
+    // },
+    // "[javascriptreact]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    //     "editor.formatOnSave": true
+    // },
+    // "[typescript]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    //     "editor.formatOnSave": true
+    // },
+    // "[typescriptreact]": {
+    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    //     "editor.formatOnSave": true
+    // },
+    "editor.formatOnSave": true,
+    "vetur.validation.template": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Gruvbox Dark (Hard)",
+    "extensions.ignoreRecommendations": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "terminal.integrated.splitCwd": "initial",
+    "Zowe-DS-Persistent": {
+        "persistence": true,
+        "favorites": [],
+        "history": [],
+        "sessions": [],
+        "fileHistory": []
+    },
+    "Zowe-USS-Persistent": {
+        "persistence": true,
+        "favorites": [],
+        "history": [],
+        "sessions": [],
+        "fileHistory": []
+    },
+    "Zowe-Jobs-Persistent": {
+        "persistence": true,
+        "favorites": [],
+        "history": [],
+        "sessions": [],
+        "fileHistory": []
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/zapp.json"
+            ],
+            "url": "file:///home/arquiteto/.vscode/extensions/ibm.zopeneditor-1.2.5/resources/zapp-schema-0.0.2.json"
+        }
+    ],
+    "workbench.editor.languageDetection": false
+}
